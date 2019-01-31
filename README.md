@@ -16,8 +16,10 @@ ______               ____  ___
     $ Bundle install
     $ rails db:migrate
     $ rails c (ex: tp Pin.all or tp Comment.all)
-    	Bonus :
+    
+Bonus :
 There's a decent rails console [command](https://stackoverflow.com/questions/2098131/rails-how-to-list-database-tables-objects-using-the-rails-console) to roughly return a list of models/tables
+
     $ Rails.application.eager_load! 
     $ ActiveRecord::Base.descendants
 
